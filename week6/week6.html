@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Quiz</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <!-- Toast Popup for Incomplete Submission -->
+    <div id="incomplete-toast" class="toast-popup hidden">
+        <span class="toast-message">If you don’t answer all, your crush will marry someone else 💔😂</span>
+        <button class="toast-close" id="toast-close">&times;</button>
+    </div>
+
+    <div class="container">
+        <header class="quiz-header header-flex">
+            <h2>In NPTEL Week 6, the same question is here. To remember it quickly, I will create it for you</h2>
+            <button onclick="window.location.href='../index.html';" class="go-back-btn">Go Back</button>
+        </header>
+
+        <form id="quiz-form" class="quiz-container">
+            <!-- Question 1 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">1)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Modification of data in transit is considered as an attack on
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q1_a" name="question1" value="A">
+                        <label for="q1_a">A) Confidentiality</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_b" name="question1" value="B">
+                        <label for="q1_b">B) Integrity</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_c" name="question1" value="C">
+                        <label for="q1_c">C) Availability</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_d" name="question1" value="D">
+                        <label for="q1_d">D) Authenticity</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 2 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">2)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            A phishing attack is mainly an attack on
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q2_a" name="question2" value="A">
+                        <label for="q2_a">A) Confidentiality</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_b" name="question2" value="B">
+                        <label for="q2_b">B) Availability</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_c" name="question2" value="C">
+                        <label for="q2_c">C) Integrity</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_d" name="question2" value="D">
+                        <label for="q2_d">D) Authenticity</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 3 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">3)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Which of the following attacks is NOT passive?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q3_a" name="question3" value="A">
+                        <label for="q3_a">A) Eavesdropping</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_b" name="question3" value="B">
+                        <label for="q3_b">B) Snooping</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_c" name="question3" value="C">
+                        <label for="q3_c">C) Masquerading</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_d" name="question3" value="D">
+                        <label for="q3_d">D) Traffic Analysis</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 4 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">4)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Denial-of-Service (DoS) is an example of
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q4_a" name="question4" value="A">
+                        <label for="q4_a">A) Disruption</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_b" name="question4" value="B">
+                        <label for="q4_b">B) Disclosure</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_c" name="question4" value="C">
+                        <label for="q4_c">C) Usurpation</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_d" name="question4" value="D">
+                        <label for="q4_d">D) Deception</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 5 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">5)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Which step involves actively testing systems for security weaknesses?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q5_a" name="question5" value="A">
+                        <label for="q5_a">A) Reconnaissance</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5_b" name="question5" value="B">
+                        <label for="q5_b">B) Vulnerability scanning</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5_c" name="question5" value="C">
+                        <label for="q5_c">C) Penetration testing</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5_d" name="question5" value="D">
+                        <label for="q5_d">D) Post-attack investigation</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 6 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">6)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Reconnaissance in network security is the phase where attackers or testers collect
+                            information
+                            about the target system.
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q6_a" name="question6" value="A">
+                        <label for="q6_a">A) True</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q6_b" name="question6" value="B">
+                        <label for="q6_b">B) False</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 7 -->
+
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">7)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Statement I: Authentication is the process of verifying the identity of a user or
+                            system.<br>
+                            Statement II: Non-repudiation ensures that a sender cannot deny sending a message.
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q7_a" name="question7" value="A">
+                        <label for="q7_a">A) Statement I is TRUE and Statement II is FALSE.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q7_b" name="question7" value="B">
+                        <label for="q7_b">B) Statement I is FALSE and Statement II is TRUE.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q7_c" name="question7" value="C">
+                        <label for="q7_c">C) Both statements are TRUE.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q7_d" name="question7" value="D">
+                        <label for="q7_d">D) Both statements are FALSE.</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 8 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">8)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            A company develops a custom machine learning model. They want full control over the
+                            operating system, runtime libraries, and storage but <b>do not</b> want to manage physical servers,
+                            power, or networking. Which cloud service model best suits their needs?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q8_a" name="question8" value="A">
+                        <label for="q8_a">a) SaaS</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q8_b" name="question8" value="B">
+                        <label for="q8_b">b) IaaS</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q8_c" name="question8" value="C">
+                        <label for="q8_c">c) PaaS</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q8_d" name="question8" value="D">
+                        <label for="q8_d">d) DaaS</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 9 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">9)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            A healthcare company must follow HIPAA guidelines when storing patient data in the cloud.
+                            This
+                            is an example of which security risk?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q9_a" name="question9" value="A">
+                        <label for="q9_a">A) Regulatory Compliance & Audit</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q9_b" name="question9" value="B">
+                        <label for="q9_b">B) Data Location</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q9_c" name="question9" value="C">
+                        <label for="q9_c">C) Recovery</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q9_d" name="question9" value="D">
+                        <label for="q9_d">D) Investigative Support</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 10 -->
+
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">10)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Vendor lock-in is most directly associated with which long-term viability challenge?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q10_a" name="question10" value="A">
+                        <label for="q10_a">a) Difficulty in migrating data to another provider</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q10_b" name="question10" value="B">
+                        <label for="q10_b">b) Unauthorized data disclosure</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q10_c" name="question10" value="C">
+                        <label for="q10_c">c) Increased regulatory audits</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q10_d" name="question10" value="D">
+                        <label for="q10_d">d) Privileged user misuse</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="submit-section">
+                <button type="button" id="submit-quiz" class="btn btn--primary btn--lg">Submit Quiz</button>
+            </div>
+
+        </form>
+
+        <!-- Results Section (Hidden by default) -->
+        <div id="results-container" class="results-container hidden">
+            <div class="results-header">
+                <h2>Quiz Results</h2>
+                <div class="score-summary">
+                    <div class="total-score">
+                        <span class="score-text" id="score-text">0 out of 10</span>
+                        <span class="percentage-text" id="percentage-text">(0%)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-breakdown" id="results-breakdown">
+                <!-- Detailed results will be populated here -->
+            </div>
+
+            <div class="retake-section">
+                <button type="button" id="retake-quiz" class="btn btn--secondary btn--lg">Retake Quiz</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

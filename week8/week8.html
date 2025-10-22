@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Quiz</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <!-- Toast Popup for Incomplete Submission -->
+    <div id="incomplete-toast" class="toast-popup hidden">
+        <span class="toast-message">If you don’t answer all, your crush will marry someone else 💔😂</span>
+        <button class="toast-close" id="toast-close">&times;</button>
+    </div>
+
+    <div class="container">
+        <header class="quiz-header header-flex">
+            <h2>In NPTEL Week 8, the same question is here. To remember it quickly, I will create it for you</h2>
+            <button onclick="window.location.href='../index.html';" class="go-back-btn">Go Back</button>
+        </header>
+
+        <form id="quiz-form" class="quiz-container">
+            <!-- Question 1 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">1)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Which command is used to list all running Docker containers?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q1_a" name="question1" value="A">
+                        <label for="q1_a">A) docker images</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_b" name="question1" value="B">
+                        <label for="q1_b">B) docker ps</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_c" name="question1" value="C">
+                        <label for="q1_c">C) docker run</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_d" name="question1" value="D">
+                        <label for="q1_d">D) docker exec</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 2 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">2)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Which of the following is true about Docker volumes?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q2_a" name="question2" value="A">
+                        <label for="q2_a">A) They are temporary and deleted with the container.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_b" name="question2" value="B">
+                        <label for="q2_b">B) They persist data independently of containers.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_c" name="question2" value="C">
+                        <label for="q2_c">C) They cannot be shared between containers.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_d" name="question2" value="D">
+                        <label for="q2_d">D) They are used only for logging.</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 3 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">3)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Which of the following statements is TRUE?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q3_a" name="question3" value="A">
+                        <label for="q3_a">A) A VM can run multiple containers inside it</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_b" name="question3" value="B">
+                        <label for="q3_b">B) A container can run multiple VMs inside it</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_c" name="question3" value="C">
+                        <label for="q3_c">C) VMs and containers cannot run together</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_d" name="question3" value="D">
+                        <label for="q3_d">D) Containers require hardware virtualization support</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 4 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">4)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Kubernetes is primarily used for:
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q4_a" name="question4" value="A">
+                        <label for="q4_a">A) Hypervisor management</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_b" name="question4" value="B">
+                        <label for="q4_b">B) Container orchestration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_c" name="question4" value="C">
+                        <label for="q4_c">C) VM migration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_d" name="question4" value="D">
+                        <label for="q4_d">D) Hardware virtualization</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 5 -->
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">5)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        __________ is an example of a Type 1 (bare-metal) hypervisor that runs directly on the hardware
+                        without needing a host OS.
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q5_a" name="question5" value="A">
+                    <label for="q5_a">a) VMware ESXi</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q5_b" name="question5" value="B">
+                    <label for="q5_b">b) VirtualBox</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q5_c" name="question5" value="C">
+                    <label for="q5_c">c) Docker</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q5_d" name="question5" value="D">
+                    <label for="q5_d">d) LXC</label>
+                </div>
+            </div>
+        </div>
+        <!-- Question 6 -->
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">6)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        In Green Cloud architecture, which scheduling strategy would most likely help minimize energy
+                        waste?
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q6_a" name="question6" value="A">
+                    <label for="q6_a">A) Round Robin Scheduling</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q6_b" name="question6" value="B">
+                    <label for="q6_b">B) First Come First Serve (FCFS)</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q6_c" name="question6" value="C">
+                    <label for="q6_c">C) Energy-Aware VM Consolidation</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q6_d" name="question6" value="D">
+                    <label for="q6_d">D) Randomized Load Distribution</label>
+                </div>
+            </div>
+        </div>
+        <!-- Question 7 -->
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">7)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        In a Sensor Cloud, which of the following is the biggest challenge when integrating Wireless
+                        Sensor Networks (WSNs) with cloud computing?
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q7_a" name="question7" value="A">
+                    <label for="q7_a">A) Lack of virtualization support in sensors</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q7_b" name="question7" value="B">
+                    <label for="q7_b">B) High energy efficiency of WSN nodes</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q7_c" name="question7" value="C">
+                    <label for="q7_c">C) Limited storage requirements of sensors</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q7_d" name="question7" value="D">
+                    <label for="q7_d">D) Sensors are always fault-tolerant</label>
+                </div>
+            </div>
+        </div>
+        <!-- Question 8 -->
+        
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">8)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        In an IoT Cloud system, latency-critical applications (like autonomous driving) are difficult to
+                        support directly from the cloud because:
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q8_a" name="question8" value="A">
+                    <label for="q8_a">A) IoT devices cannot transmit data wirelessly</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q8_b" name="question8" value="B">
+                    <label for="q8_b">B) Cloud servers are usually located far from the devices</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q8_c" name="question8" value="C">
+                    <label for="q8_c">C) IoT Cloud systems do not use virtualization</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q8_d" name="question8" value="D">
+                    <label for="q8_d">D) The cloud cannot store IoT data at large scale</label>
+                </div>
+            </div>
+        </div>
+        <!-- Question 9 -->
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">9)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        Which of the following is the biggest challenge in storing raw sensor data directly in the cloud?
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q9_a" name="question9" value="A">
+                    <label for="q9_a">A) Low redundancy of sensor data</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q9_b" name="question9" value="B">
+                    <label for="q9_b">B) High volume, velocity, and heterogeneity of sensor data</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q9_c" name="question9" value="C">
+                    <label for="q9_c">C) Lack of virtualization in the cloud</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q9_d" name="question9" value="D">
+                    <label for="q9_d">D) Inability of cloud to support batch processing</label>
+                </div>
+            </div>
+        </div>
+        <!-- Question 10 -->
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">10)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        Statement 1: In Sensor Cloud, virtualization of sensor data allows multiple applications to use the
+                        same physical sensor infrastructure.<br>
+                        Statement 2: Without virtualization, each application would require a dedicated sensor network,
+                        increasing cost and inefficiency.
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q10_a" name="question10" value="A">
+                    <label for="q10_a">A) Statement 1 is True and Statement 2 is False</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q10_b" name="question10" value="B">
+                    <label for="q10_b">B) Statement 2 is True and Statement 1 is False</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q10_c" name="question10" value="C">
+                    <label for="q10_c">C) Both statements are True</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q10_d" name="question10" value="D">
+                    <label for="q10_d">D) Both statements are False</label>
+                </div>
+            </div>
+        </div>
+            <!-- Submit Button -->
+            <div class="submit-section">
+                <button type="button" id="submit-quiz" class="btn btn--primary btn--lg">Submit Quiz</button>
+            </div>
+
+        </form>
+
+        <!-- Results Section (Hidden by default) -->
+        <div id="results-container" class="results-container hidden">
+            <div class="results-header">
+                <h2>Quiz Results</h2>
+                <div class="score-summary">
+                    <div class="total-score">
+                        <span class="score-text" id="score-text">0 out of 10</span>
+                        <span class="percentage-text" id="percentage-text">(0%)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-breakdown" id="results-breakdown">
+                <!-- Detailed results will be populated here -->
+            </div>
+
+            <div class="retake-section">
+                <button type="button" id="retake-quiz" class="btn btn--secondary btn--lg">Retake Quiz</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

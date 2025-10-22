@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing Quiz</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <!-- Toast Popup for Incomplete Submission -->
+    <div id="incomplete-toast" class="toast-popup hidden">
+        <span class="toast-message">If you don’t answer all, your crush will marry someone else 💔😂</span>
+        <button class="toast-close" id="toast-close">&times;</button>
+    </div>
+
+    <div class="container">
+        <header class="quiz-header header-flex">
+            <h2>In NPTEL Week 10, the same question is here. To remember it quickly, I will create it for you</h2>
+            <button onclick="window.location.href='../index.html';" class="go-back-btn">Go Back</button>
+        </header>
+
+        <form id="quiz-form" class="quiz-container">
+            <!-- Question 1 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">1)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Which migration technique typically results in shorter downtime but may have a longer
+                            migration time?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q1_a" name="question1" value="A">
+                        <label for="q1_a">A) Cold migration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_b" name="question1" value="B">
+                        <label for="q1_b">B) Pre-copy migration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_c" name="question1" value="C">
+                        <label for="q1_c">C) Post-copy migration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q1_d" name="question1" value="D">
+                        <label for="q1_d">D) Hybrid migration</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 2 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">2)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Which migration type is most prone to network failure risks?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q2_a" name="question2" value="A">
+                        <label for="q2_a">A) Pre-copy migration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_b" name="question2" value="B">
+                        <label for="q2_b">B) Post-copy migration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_c" name="question2" value="C">
+                        <label for="q2_c">C) Hybrid migration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q2_d" name="question2" value="D">
+                        <label for="q2_d">D) Cold migration</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 3 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">3)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Which migration technique is more energy-efficient in fog computing?
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q3_a" name="question3" value="A">
+                        <label for="q3_a">A) Pre-copy</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_b" name="question3" value="B">
+                        <label for="q3_b">B) Post-copy</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_c" name="question3" value="C">
+                        <label for="q3_c">C) Hybrid migration</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q3_d" name="question3" value="D">
+                        <label for="q3_d">D) Cold migration</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 4 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">4)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            In cloud platforms (like AWS, GCP, Azure), Docker Engine is primarily responsible for:
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q4_a" name="question4" value="A">
+                        <label for="q4_a">A) Automatically scaling container clusters.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_b" name="question4" value="B">
+                        <label for="q4_b">B) Running and managing individual containers on VM instances.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_c" name="question4" value="C">
+                        <label for="q4_c">C) Replacing Kubernetes for container orchestration.</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q4_d" name="question4" value="D">
+                        <label for="q4_d">D) Providing multi-cloud identity management.</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 5 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">5)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            The central service that stores and distributes Docker images is called ___________.
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q5_a" name="question5" value="A">
+                        <label for="q5_a">A) Docker Swarm</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5_b" name="question5" value="B">
+                        <label for="q5_b">B) Docker Hub</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5_c" name="question5" value="C">
+                        <label for="q5_c">C) Docker Engine</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q5_d" name="question5" value="D">
+                        <label for="q5_d">D) Docker Daemon</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 6 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">6)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Docker volumes are deleted automatically when the container using them is removed.
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q6_a" name="question6" value="A">
+                        <label for="q6_a">a) True</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q6_b" name="question6" value="B">
+                        <label for="q6_b">b) False</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 7 -->
+            <div class="question-block">
+                <div class="question-header">
+                    <h2 class="question-number">7)</h2>
+                    <div class="question-content">
+                        <p class="question-text">
+                            Statement 1: Docker networking allows containers to communicate with each other and the host.<br>
+                            Statement 2: By default, containers are launched in host network mode.
+                        </p>
+                        <span class="points">1 point</span>
+                    </div>
+                </div>
+            
+                <div class="options-container">
+                    <div class="option">
+                        <input type="radio" id="q7_a" name="question7" value="A">
+                        <label for="q7_a">A) Only statement 1 is true</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q7_b" name="question7" value="B">
+                        <label for="q7_b">B) Only statement 2 is true</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q7_c" name="question7" value="C">
+                        <label for="q7_c">C) Both statement 1 and 2 are true</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="q7_d" name="question7" value="D">
+                        <label for="q7_d">D) Both the statements are false</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 8 -->
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">8)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        By default, Docker pulls all images from a private registry.
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q8_a" name="question8" value="A">
+                    <label for="q8_a">A) True</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q8_b" name="question8" value="B">
+                    <label for="q8_b">B)False</label>
+                </div>
+            </div>
+        </div>
+        <!-- Question 9 -->
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">9)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        If a VM has 128 GB memory and the migration channel supports 4 MB/sec, what is the total
+                        migration time and downtime for non-live VM migration?
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q9_a" name="question9" value="A">
+                    <label for="q9_a">A) 8 hours, 8 hours</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q9_b" name="question9" value="B">
+                    <label for="q9_b">B) 9 hours, 9 hours</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q9_c" name="question9" value="C">
+                    <label for="q9_c">C) 10 hours, 10 hours</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q9_d" name="question9" value="D">
+                    <label for="q9_d">D) 11 hours, 11 hours</label>
+                </div>
+            </div>
+        </div>
+        <!-- Question 10 -->
+        <div class="question-block">
+            <div class="question-header">
+                <h2 class="question-number">10)</h2>
+                <div class="question-content">
+                    <p class="question-text">
+                        During live migration, storage migration is required if:
+                    </p>
+                    <span class="points">1 point</span>
+                </div>
+            </div>
+        
+            <div class="options-container">
+                <div class="option">
+                    <input type="radio" id="q10_a" name="question10" value="A">
+                    <label for="q10_a">A) Both source and destination hosts use shared storage</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q10_b" name="question10" value="B">
+                    <label for="q10_b">B)Destination host has faster CPU</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q10_c" name="question10" value="C">
+                    <label for="q10_c">C) Destination host does not have access to the VM's disk</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="q10_d" name="question10" value="D">
+                    <label for="q10_d">D) Migration occurs within the same physical server</label>
+                </div>
+            </div>
+        </div>
+            <!-- Submit Button -->
+            <div class="submit-section">
+                <button type="button" id="submit-quiz" class="btn btn--primary btn--lg">Submit Quiz</button>
+            </div>
+
+        </form>
+
+        <!-- Results Section (Hidden by default) -->
+        <div id="results-container" class="results-container hidden">
+            <div class="results-header">
+                <h2>Quiz Results</h2>
+                <div class="score-summary">
+                    <div class="total-score">
+                        <span class="score-text" id="score-text">0 out of 10</span>
+                        <span class="percentage-text" id="percentage-text">(0%)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-breakdown" id="results-breakdown">
+                <!-- Detailed results will be populated here -->
+            </div>
+
+            <div class="retake-section">
+                <button type="button" id="retake-quiz" class="btn btn--secondary btn--lg">Retake Quiz</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
